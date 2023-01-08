@@ -1,18 +1,8 @@
 # Three.js boilerplate
-This is a simple three.js boilerplate for new projects, feel free to contribute!
+This boilerplate is a clone of [this](https://github.com/learnthreejs/three-js-boilerplate) 
 
-### Setup
-Run the setup script to make the repository your own!
+#THREE.js
+The project is a clone of basic Minecraft with building and deletion of blocks in various styles.
 
-```bash
-$ ./setup
-```
-
-Install dependencies and start your engines! This ships with a simple express.js server so we can run three.js properly without cross-origin issues.
-
-```bash
-$ npm install
-$ npm run start
-```
-
-Open http://localhost:8080 to view your project.
+#Game setup
+The game operates with wsad keys for movement, left-click for placing blocks, right-click holds of around 1 second to remove blocks, and the scroll wheel to translate on the y-axis(flying upwards/downwards)
